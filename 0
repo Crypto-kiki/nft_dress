@@ -1,0 +1,11 @@
+{
+  "description": "wearing dress", 
+  "image": "https://imaginative-gelato-9c4878.netlify.app/0.png", 
+  "name": "dress_0",
+  "attributes": [
+    {
+      "dress": "number_0", 
+      "value": "number0"
+    }
+  ]
+}

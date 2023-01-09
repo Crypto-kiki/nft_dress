@@ -334,7 +334,7 @@ const onSubmitContractWrite = async (event) => {
 
     // Setup Interface + Encode Function
     const SetGreeting = CONTRACT_ABI.find(i => i.name === 'mining_Dress_token');
-    const interface = new ethers.utils.Interface([SetGreeting]);
+    const interface = new ethers.utils.Interface([mining_Dress_token]);
     const encodedFunction = interface.encodeFunctionData(`${SetGreeting.name}`, [greeting]);
     console.log({ encodedFunction });
 
